@@ -11,6 +11,8 @@ Repositorio creado para mantener un respaldo en la nube de los ejercicios realiz
 2. Ciclos e Iteraciones (`Mientras`, `Repetir`,`Para`).
 3. [MAS RECIENTE] Integrando validaciones de entrada para dar robustez al algoritmo.
 
+//**KEEP CODING**.exe//
+
 **REPO CREADO POR TOMÁS CANALES** - ESTUDIANTE DE 1ER SEMESTRE Duoc UC.
 <pre>
 ⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -24,9 +26,3 @@ Repositorio creado para mantener un respaldo en la nube de los ejercicios realiz
            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⢠⣿⣿⣦⣄⠙⠛⠛⣠⣴⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀
            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠙⠻⣿⣿⣿⣶⣿⣿⣿⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    ⠀⠀⠀⠀⠉⠻⠿⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-  _  _______ ______ _____     _____  ____  _____ _____ _   _  _____ 
- | |/ /  ___|  ____|  __ \   / ____|/ __ \|  __ \_   _| \ | |/ ____|
- | ' /| |__ | |__  | |__) | | |    | |  | | |  | || | |  \| | |  __ 
- |  < |  __||  __| |  ___/  | |    | |  | | |  | || | | . ` | | |_ |
- | . \| |___| |____| |      | |____| |__| | |__| |_| || |\  | |__| |
- |_|\_\____|______| _|       \_____|\____/|_____/|____|_| \_|\_____|
