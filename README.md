@@ -8,7 +8,7 @@ Repositorio creado para mantener un respaldo en la nube de los ejercicios realiz
 == CONCEPTOS DE TRABAJO ACTUALES ==
 1. Estructuras de control ("SI-Entonces", "Segun").
 2. Ciclos e Iteraciones ("Mientras", "Repetir", "Para").
-3.[MAS RECIENTE] Integrando validaciones de entrada para dar robustez al algoritmo
+3. 3.[MAS RECIENTE] Integrando validaciones de entrada para dar robustez al algoritmo.
 
 **REPO CREADO POR TOMÁS CANALES** - ESTUDIANTE DE 1ER SEMESTRE Duoc UC.
 
