@@ -1,5 +1,6 @@
 # REPO FUNDAMENTOS DE PROGRAMACION #
-  #EJERCICIOS DE PSEINT#
+  ##EJERCICIOS DE PSEINT##
+  
 Repositorio creado para mantener un respaldo en la nube de los ejercicios realizados en clases de Fundamentos de programación
 
 ## Herramientas utilizadas ##
