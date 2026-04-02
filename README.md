@@ -15,6 +15,8 @@ Repositorio creado para mantener un respaldo en la nube de los ejercicios realiz
 
 //KEEP_CODING.exe//
 
+<pre>
+ ```text
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⣀⢴⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣷⡝⢷⣄⣀⣀⣀⣀⣀⣠⡾⢫⣾⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
