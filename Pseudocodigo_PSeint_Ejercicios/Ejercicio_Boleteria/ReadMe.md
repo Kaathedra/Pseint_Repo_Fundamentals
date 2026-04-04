@@ -1,8 +1,8 @@
-##Ejercicio Boleteria en Pseint##
+# Ejercicio Boleteria en Pseint 
 
 
 
-#**Esencia del ejercicio**#
+## **Esencia del ejercicio** 
 
 
 
@@ -18,7 +18,7 @@ Adicional a lo solicitado en el instructivo, se añadieron funciones adicionales
 
 
 
-#**Módulos**#
+### **Módulos** 
 
 
 
@@ -31,7 +31,7 @@ Cree un pequeño sistema de módulos.
 
 
 
-#Instancias a mejorar#
+### Instancias a mejorar 
 
 
 
