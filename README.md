@@ -16,7 +16,7 @@ Repositorio creado para mantener un respaldo en la nube de los ejercicios realiz
 **REPO CREADO POR TOMÁS CANALES** - ESTUDIANTE DE 1ER SEMESTRE Duoc UC.
 <pre>
 ⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-      ⠀⠀⠀⠀⠀⠀      ⠀⠀⠀⠀⣿⡦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⣀⢴⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+      ⠀⠀⠀⠀⠀⠀      ⠀⠀⠀⠀⣿⡦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⢴⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
    ⠀⠀⠀        ⠀⠀⠀⠀ ⠀⠀⠀⣿⣷⡝⢷⣄⣀⣀⣀⣀⣀⣠⡾⢫⣾⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
            ⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠹⣿⢁⣴⣿⣿⣿⣿⣿⣿⣿⣦⡈⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀  
            ⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⣵⣿⢿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣮⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
