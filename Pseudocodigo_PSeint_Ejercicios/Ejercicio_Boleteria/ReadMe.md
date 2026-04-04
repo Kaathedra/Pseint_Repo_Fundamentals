@@ -1,8 +1,8 @@
-\##Ejercicio Boleteria en Pseint##
+##Ejercicio Boleteria en Pseint##
 
 
 
-\#\*\*Esencia del ejercicio\*\*#
+#**Esencia del ejercicio**#
 
 
 
@@ -18,11 +18,11 @@ Adicional a lo solicitado en el instructivo, se añadieron funciones adicionales
 
 
 
-\#\*\*Módulos\*\*#
+#**Módulos**#
 
 
 
-&#x20;Cree un pequeño sistema de módulos.
+Cree un pequeño sistema de módulos.
 
 
 
@@ -31,10 +31,9 @@ Adicional a lo solicitado en el instructivo, se añadieron funciones adicionales
 
 
 
-\#Instancias a mejorar#
+#Instancias a mejorar#
 
 
 
 * En un futuro se buscará migrar el Pseudocódigo a un lenguaje formal.
 * Se deben añadir mayores barreras para evitar errores de ingreso, como datos de distintos tipos al esperado.
-
