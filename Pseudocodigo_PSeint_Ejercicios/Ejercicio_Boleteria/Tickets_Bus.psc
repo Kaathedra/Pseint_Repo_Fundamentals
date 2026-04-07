@@ -32,7 +32,7 @@ Proceso Tickets_Bus
 	
 	Escribir "Bienvenido, qué deseas hacer?";
 	Repetir
-		Escribir "=====Buses USB=====";
+		Escribir "===== Buses USB =====";
 		Escribir "1. Comprar pasajes";
 		Escribir "2. Ver resumen de ventas";
 		Escribir "3. Salir";
@@ -96,6 +96,7 @@ Proceso Tickets_Bus
 				Escribir "";
 				Escribir "Presione cualquier tecla para continuar";
 				Esperar Tecla;
+				Borrar Pantalla;
 				Escribir "";
 			2: 
 				Esperar 500 Milisegundos;
@@ -106,6 +107,7 @@ Proceso Tickets_Bus
 				Escribir "========================";
 				Escribir "Presione cualquier tecla para continuar";
 				Esperar Tecla;
+				Borrar Pantalla;
 				Escribir "";
 		FinSegun
 	Hasta Que  opcion_menu == 3;
