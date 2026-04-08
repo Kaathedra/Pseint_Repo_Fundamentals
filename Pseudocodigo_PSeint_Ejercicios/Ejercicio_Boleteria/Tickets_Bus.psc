@@ -10,7 +10,7 @@ FinSubProceso
 
 SubProceso AnimacionCarga (tiempo, cant_puntos) // Modulo Animacion
 	Definir I Como Entero;
-	Escribir Sin Saltar "Procesando";   // Pequeña animacion que evidencia un proceso de "pensar" del programa
+	Escribir Sin Saltar "Procesando";   // PequeÃ±a animacion que evidencia un proceso de "pensar" del programa
 	Para I <- 1 Hasta cant_puntos Hacer
 		Esperar tiempo Milisegundos;
 		Escribir Sin Saltar ".";
@@ -30,7 +30,7 @@ Proceso Tickets_Bus
 	cont_ptmt = 0;
 	
 	
-	Escribir "Bienvenido, qué deseas hacer?";
+	Escribir "Bienvenido, quÃ© deseas hacer?";
 	Repetir
 		Escribir "===== Buses USB =====";
 		Escribir "1. Comprar pasajes";
@@ -41,7 +41,7 @@ Proceso Tickets_Bus
 		Segun opcion_menu Hacer
 			1 : 
 				Escribir "1. Talca ($10 000)";
-				Escribir "2. Concepción($20 000)";
+				Escribir "2. ConcepciÃ³n($20 000)";
 				Escribir "3. Puerto Montt($35 000)";
 				opcion_destino <- LeerValidado("Elija un destino: ", 1, 3);
 				cant_pasajes <- LeerValidado("Cuantos pasajes desea?: ", 1, 40);
@@ -52,7 +52,7 @@ Proceso Tickets_Bus
 						precio_ticket = 10000;
 						cont_tal = cont_tal + cant_pasajes;
 					2: 
-						destino = "Concepción";
+						destino = "ConcepciÃ³n";
 						precio_ticket = 20000;
 						cont_con = cont_con + cant_pasajes;
 					3: 
@@ -64,6 +64,7 @@ Proceso Tickets_Bus
 				FinSegun
 				Esperar 500 Milisegundos;
 				Si precio_ticket > 0 Entonces
+					subtotal = cant_pasajes * precio_ticket;
 					Escribir "Tiene tarjeta de descuento?(s/n): ";
 					Leer tiene_dcto;
 					tiene_dcto <- Minusculas(tiene_dcto);
@@ -73,10 +74,11 @@ Proceso Tickets_Bus
 						tiene_dcto <- Minusculas(tiene_dcto);
 					FinMientras
 					Si tiene_dcto == "s" Entonces
-						total_compra = (cant_pasajes * precio_ticket) * 0.9;
+						dcto = (cant_pasajes * precio_ticket) * 0.1;
+						total_compra = subtotal - dcto;
 					SiNo 
 						Si tiene_dcto == "n" Entonces
-							total_compra = cant_pasajes * precio_ticket;
+							total_compra = subtotal;
 						FinSi
 					FinSi
 					AnimacionCarga(300, 5);
@@ -102,7 +104,7 @@ Proceso Tickets_Bus
 				Esperar 500 Milisegundos;
 				Escribir "=== Resumen de ventas===";
 				Escribir "Pasajes a Talca: ", cont_tal;
-				Escribir " Pasajes a Concepción: ", cont_con;
+				Escribir " Pasajes a ConcepciÃ³n: ", cont_con;
 				Escribir "Pasajes a Puerto Montt: ", cont_ptmt;
 				Escribir "========================";
 				Escribir "Presione cualquier tecla para continuar";
