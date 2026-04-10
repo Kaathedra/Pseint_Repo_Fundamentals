@@ -64,6 +64,7 @@ Proceso Tickets_Bus
 				FinSegun
 				Esperar 500 Milisegundos;
 				Si precio_ticket > 0 Entonces
+					subtotal = cant_pasajes * precio_ticket;
 					Escribir "Tiene tarjeta de descuento?(s/n): ";
 					Leer tiene_dcto;
 					tiene_dcto <- Minusculas(tiene_dcto);
@@ -73,11 +74,10 @@ Proceso Tickets_Bus
 						tiene_dcto <- Minusculas(tiene_dcto);
 					FinMientras
 					Si tiene_dcto == "s" Entonces
-						total_compra = (cant_pasajes * precio_ticket) * 0.9;
+						dcto = (cant_pasajes * precio_ticket) * 0.1;
+						total_compra = subtotal - dcto;
 					SiNo 
-						Si tiene_dcto == "n" Entonces
-							total_compra = cant_pasajes * precio_ticket;
-						FinSi
+						total_compra = subtotal;
 					FinSi
 					AnimacionCarga(300, 5);
 					Esperar 700 Milisegundos;
@@ -87,7 +87,7 @@ Proceso Tickets_Bus
 					Escribir "Cantidad: ", cant_pasajes;
 					Escribir "Subtotal: ", cant_pasajes * precio_ticket;
 					Si tiene_dcto == "s" Entonces
-						Escribir "Descuento (10%): ",(precio_ticket * cant_pasajes) * 0.1;
+						Escribir "Descuento (10%): ",dcto;
 					SiNo
 						Escribir "Descento no aplica";
 					FinSi
